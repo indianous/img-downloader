@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "puppeteer": "^15.3.0"
+  },
+  "name": "pixiv-img-downloader",
+  "version": "1.0.0",
+  "description": "um robo que baixa imagens favoritadas do site Pixiv feito com o puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "João Victor do Nascimento.",
+  "license": "ISC"
+}
